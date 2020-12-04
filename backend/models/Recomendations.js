@@ -12,9 +12,9 @@ const recomendationSchema= new Schema({
     surprise:Number,
     crypto:{
         type:String,
-        enum:["BTC", "XRP", "ETH"]
+        enum:["BTC", "LTC", "ETH"]
     },
-    recommendation:{
+    recomendation:{
         type:String,
         enum:["Buy", "Sell", "Hold"]
     },

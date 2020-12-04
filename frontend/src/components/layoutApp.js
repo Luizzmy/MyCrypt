@@ -62,7 +62,7 @@ function LayoutApp({ children }) {
             </Col>
           </Row>
         </Header>
-        <Content style={{ padding: '0 10px' }}>
+        <Content style={{ padding: '10px 20px' }}>
           <div className="site-layout-content">{children}</div>
         </Content>
         {/* <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer> */}

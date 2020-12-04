@@ -1,4 +1,4 @@
-// // js file from generator
+// // js file from generator, we wont be using this page for now... we made our own
 
 
 // import axios from 'axios'

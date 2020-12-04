@@ -8,7 +8,7 @@ exports.isAuth=(req,res,next)=>{
     if(req.isAuthenticated()){
         next()
     } else (
-        res.statys(403).json({
+        res.status(403).json({
             message:"You need to be logged in to acces this page"
         })
     )

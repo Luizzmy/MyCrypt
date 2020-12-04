@@ -21,7 +21,7 @@ router.post('/create', isAuth, catchErrs(creatRecomendation))
 router.put('/edit/:recomendationId', isAuth, catchErrs(updateRecomendations))
 
 //List All Recomendations
-router.get('/allRecommendations', isAuth, catchErrs(allRecommendations))
+router.get('/allRecomendations', isAuth, catchErrs(allRecommendations))
 
 //Recom Details
 router.get('/detail/:recomendationId', isAuth, catchErrs(getRecomDetail))

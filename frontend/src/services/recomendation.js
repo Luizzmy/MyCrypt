@@ -13,7 +13,7 @@ const recomnService = axios.create({
 // export service-functions to target page
 
 // get 
-export const getReco = () => recomnService.get()
+export const getReco = () => recomnService.get('/allRecomendations')
 
 // details
 export const recoDetails = id => recomnService.get(`/${id}`)
