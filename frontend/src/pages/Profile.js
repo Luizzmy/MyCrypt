@@ -41,7 +41,7 @@ const Profile = () => {
         <Row gutter={[16, 16]}>
           <Col xs={24} sm={24} md={12} lg={12} >
             <Card title="User profile">
-              {/* {postFiltered.Post.map(post => <PostCard {...post}/>)} */}
+              {/* {postsFiltered.Post.map(post => <PostCard {...post}/>)} */}
             m excepturi illum natus voluptas voluptatibus.
             Incidunt rerum optio numquam distinctio,dsd
 
@@ -61,11 +61,7 @@ const Profile = () => {
 
           </Col>
 
-          <Col xs={24} sm={24} md={8}>
-            <Card title="Interview">
-              {postsFiltered.POSTES.map(post => <PostCard key={post._id} {...post} />)}
-            </Card>
-          </Col>
+           
 
 
         </Row>
