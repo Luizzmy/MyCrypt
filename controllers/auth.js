@@ -6,7 +6,7 @@ const passport = require('passport');
 const {userRegister}=require('../config/nodemailer')
 
 exports.signup = async (req, res) => {
-  const newUser= await User.register(req.body, req.body.password, function(err){
+  const newUser= await User.register({...req.body}, req.body.password, function(err){
     if(err){
       res.status(501).json({message:'There was an error while registering please try again with a different email or password'})
     }
